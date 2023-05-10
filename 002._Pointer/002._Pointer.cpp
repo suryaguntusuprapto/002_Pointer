@@ -14,4 +14,7 @@ void mahasiswa::shownim() {
 int main() {
 	mahasiswa mhs{ 1 };
 	mhs.shownim();
+
+	mahasiswa& ref = mhs;
+	ref.nim = 2;
 }
