@@ -10,3 +10,11 @@ public:
 	void setnama(string pNama);
 	friend class siswa;
 };
+
+class siswa {
+private:
+	int id;
+public:
+	void setid(int pId);
+	void dispayAll(orang& a);
+};
