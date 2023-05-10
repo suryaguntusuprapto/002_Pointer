@@ -20,4 +20,5 @@ int main() {
 	mhs.shownim();
 
 	mahasiswa* pmhs = &mhs;
+	pmhs->nim = 3;
 }
