@@ -22,4 +22,5 @@ int main() {
 	mahasiswa* pmhs = &mhs;
 	pmhs->nim = 3;
 	mhs.shownim();
+	system("pause");
 }
