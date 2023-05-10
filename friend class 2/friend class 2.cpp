@@ -12,3 +12,11 @@ void setnama(mahasiswa& a, string pNama) {
 	a.nama = pNama;
 	cout << "Nama" << a.nama;
 }
+
+int main() {
+	mahasiswa mhs;
+	setnama(mhs, "Joko Kumat");
+	cout << endl;
+	system("pause");
+	return 0;
+}
