@@ -26,3 +26,8 @@ void siswa::dispayAll(orang& a) {
 void siswa::setid(int pId) {
 	id = pId;
 }
+
+void orang::setnama(string pNama) {
+	nama = pNama;
+}
+
