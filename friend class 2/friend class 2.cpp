@@ -7,3 +7,8 @@ private:
 public:
 	friend void setnama(mahasiswa& a, string);
 };
+
+void setnama(mahasiswa& a, string pNama) {
+	a.nama = pNama;
+	cout << "Nama" << a.nama;
+}
