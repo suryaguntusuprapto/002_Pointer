@@ -22,3 +22,7 @@ public:
 void siswa::dispayAll(orang& a) {
 	cout << id << endl << a.nama;
 }
+
+void siswa::setid(int pId) {
+	id = pId;
+}
