@@ -18,3 +18,7 @@ public:
 	void setid(int pId);
 	void dispayAll(orang& a);
 };
+
+void siswa::dispayAll(orang& a) {
+	cout << id << endl << a.nama;
+}
